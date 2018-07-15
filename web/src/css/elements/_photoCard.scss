@@ -1,0 +1,72 @@
+
+.photoCard {
+    display: flex;
+    background: var(--lightBlue);
+    color: var(--white);
+    padding: 10px;
+
+    @media screen and (max-width: $break-medium) {
+        flex-direction: column;
+    }
+    
+    .image--container {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+
+        .image--frame {
+            position: relative;
+            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+            background: var(--white);
+            padding: 10px;
+            transform: rotateZ(-7deg);
+            left: -10px;
+
+            @media screen and (max-width: $break-medium) {
+                display: inline-block;
+            }
+
+            img {
+                width: 300px;
+                height: 200px;
+            }
+            .description {
+                text-align: center;
+                padding: 10px;
+                margin: 0;
+                color: var(--purple);
+            }
+        }
+
+    }
+    .text {
+        padding: 20px;
+
+        @media screen and (max-width: $break-medium) {
+            text-align: center;
+            order: 2;
+         }
+    }
+}
+
+.photoCard.photoCard--left {
+
+    .image--container .image--frame {
+        transform: rotateZ(-7deg) translateX(10px);
+    }
+}
+
+.photoCard.photoCard--right {
+    .image--container .image--frame {
+        transform: rotateZ(7deg);
+    }
+    .text {
+        text-align: right;
+
+        @media screen and (max-width: $break-medium) {
+            text-align: center;
+         }
+
+    }
+    
+}
