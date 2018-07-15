@@ -1,0 +1,18 @@
+
+.infoBox {
+  padding: 25px 35px;
+  margin: 10px 0;
+  background: var(--purple);
+
+  .content {
+    margin-left: 45px;
+    padding: 10px 35px;
+    background: var(--black);
+    color: var(--white);
+
+    @media screen and (max-width: $break-medium) {
+      margin-left: 0;
+    }
+
+  }
+}
