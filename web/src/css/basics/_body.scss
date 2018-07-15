@@ -1,0 +1,46 @@
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: var(--lightBlush);
+  max-width: 1080px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black);
+  text-transform: uppercase;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 2px dashed;
+    border-color: var(--purple);
+    margin-top: 4px;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: scale(0,1);
+  }
+
+  &:hover:after {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  &.noLinkStyle {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+
+img {
+  display: block;
+}

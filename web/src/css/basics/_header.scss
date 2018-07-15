@@ -1,0 +1,14 @@
+
+header {
+    background: var(--lightBlush);
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px var(--purple) double;
+
+    nav a {
+        display: inline-block;
+    }
+}
