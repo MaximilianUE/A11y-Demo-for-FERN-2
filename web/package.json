@@ -31,5 +31,6 @@
     "webpack-serve": "^2.0.2"
   },
   "dependencies": {
+    "swiper": "^4.3.3"
   }
 }
