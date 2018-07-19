@@ -30,7 +30,7 @@ module.exports = (env) => ({
           test: /\.scss$/,
           use: [
             MiniCssExtractPlugin.loader,
-            { loader: 'css-loader', options: { importLoaders: 1 } },
+            { loader: 'css-loader', options: { importLoaders: 1, url: false } },
             'postcss-loader', // returns scss
             'sass-loader' //compiles scss to css
           ]
@@ -38,7 +38,7 @@ module.exports = (env) => ({
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          //
+          loader: "babel-loader" 
         },
       ]
     },
