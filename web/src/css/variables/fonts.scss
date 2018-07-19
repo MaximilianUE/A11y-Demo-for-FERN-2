@@ -1,13 +1,29 @@
 
-h1, h2, h3 {
+@font-face {
+  font-family: fixer;
+  src: url(./fonts/fixer.ttf);
+}
+
+@font-face {
+  font-family: fixer slim;
+  src: url(./fonts/fixer_slim.ttf);
+}
+
+body {
+  font-family: fixer slim;
+  font-size: 22px; 
+  line-height: 1; 
+  font-weight: 300;
+}
+
+p, h1, h2, h3, h4 {
+  font-family: fixer;
   margin-top: 0;
 }
 
-p {font-size: 16px; line-height: 1; font-weight: 300; } 
-
-h1 {font-size: 42px; line-height: 1; font-weight: 300; } 
-h2 {font-size: 38px; line-height: 1; font-weight: 300; }
-h3 {font-size: 34px; line-height: 1; font-weight: 300; }
+h1 {font-size: 62px; line-height: 1; font-weight: 300; } 
+h2 {font-size: 54px; line-height: 1; font-weight: 300; }
+h3 {font-size: 42px; line-height: 1; font-weight: 300; }
 
 .text-center {
   text-align: center;
