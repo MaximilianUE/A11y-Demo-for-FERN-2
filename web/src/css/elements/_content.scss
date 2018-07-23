@@ -1,4 +1,4 @@
-.content__Container {
+.content__container {
     padding: var(--global-padding) 0;
 
     h2 {
@@ -12,7 +12,7 @@
             display: flex;
             justify-content: space-between;
 
-            .article-body {
+            .article__body {
                 background: var(--white);
                 padding: var(--global-padding);
                 width: 80%;
@@ -48,7 +48,7 @@
                     margin-bottom: 10px;
                 }
 
-                .header-img {
+                .headerImg {
                     width: 100%;
                 }
             }
