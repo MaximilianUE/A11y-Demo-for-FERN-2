@@ -4,13 +4,15 @@
 @import './variables/global';
 @import './variables/colors';
 @import './variables/fonts';
+@import './variables/fonts';
 
-@import './basics/body';
-@import './basics/footer';
-@import './basics/header';
-@import './basics/button';
-@import './basics/slider';
-@import './basics/nav';
+@import './layout/base';
+@import './layout/body';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/button';
+@import './layout/slider';
+@import './layout/nav';
 
 @import './elements/infoBox';
 @import './elements/photoCard';
