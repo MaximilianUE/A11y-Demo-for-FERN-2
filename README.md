@@ -13,10 +13,6 @@ node version: v8.9.0
 
 `yarn start`
 
-### Development 
-
-`yarn run watch`
-
 ### Production
 
 `yarn run build`
