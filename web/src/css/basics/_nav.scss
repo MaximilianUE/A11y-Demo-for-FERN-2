@@ -1,0 +1,12 @@
+
+nav.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    a {
+        display: inline-block;
+        margin-bottom: 10px;
+        width: max-content;
+    }
+}
