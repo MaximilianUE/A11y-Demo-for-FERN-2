@@ -1,17 +1,17 @@
 
-.button {
-    a {
-        @extend .noLinkStyle;
-        padding: 10px 20px;
-        background: var(--lightBlue);
-        transition: background-color 0.25s;
-        color: var(--white);
-        font-weight: bold;
-        border: 4px var(--purple) solid;
+a.button,
+button {
+    @extend .noLinkStyle;
+    padding: 10px 20px;
+    background: var(--lightBlue);
+    transition: background-color 0.25s;
+    color: var(--white);
+    font-weight: bold;
+    border: 4px var(--purple) solid;
+    cursor: pointer;
 
-        &:hover {
-            background: var(--blue);
-        }
+    &:hover {
+        background: var(--blue);
     }
 
     @media screen and (max-width: $break-medium) {
