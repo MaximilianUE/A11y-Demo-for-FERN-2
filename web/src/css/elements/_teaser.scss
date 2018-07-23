@@ -1,0 +1,35 @@
+.teaser__Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: var(--purple);
+
+    .teaser {
+        @extend .noLinkStyle;
+        min-width: 200px;
+        margin: var(--global-margin);
+        flex: 3;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: var(--global-padding);
+        background: var(--blue);
+        transition: transform 0.3s, background-color 0.3s;
+        cursor: pointer;
+
+        p {
+            padding: var(--global-padding);
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            background: var(--lightBlue);
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+        }
+    }
+    
+}
