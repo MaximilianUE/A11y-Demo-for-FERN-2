@@ -1,9 +1,19 @@
 
 footer {
-    padding: 10px 25px;
-    margin-bottom: 10px;
-    border-top: 10px var(--purple) double;
-    border-bottom: 10px var(--purple) double;
-    display: flex;
-    justify-content: center;
+    .linkList--Container {
+        display: flex;
+        justify-content: space-between;
+        padding: var(--global-padding);
+        background: var(--blush);
+    }
+
+    .footer-low {
+        padding: 10px 25px;
+        margin-bottom: 10px;
+        border-top: 10px var(--purple) double;
+        border-bottom: 10px var(--purple) double;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
