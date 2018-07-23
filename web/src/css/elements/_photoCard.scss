@@ -1,9 +1,12 @@
 
-.photoCard {
-    display: flex;
+.photoCard__Container {
     background: var(--lightBlue);
     color: var(--white);
     padding: 10px;
+}
+
+.photoCard {
+    display: flex;
 
     @media screen and (max-width: $break-medium) {
         flex-direction: column;
