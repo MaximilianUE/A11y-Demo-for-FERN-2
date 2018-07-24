@@ -5,18 +5,24 @@
 }
 
 @font-face {
-  font-family: fixer slim;
+  font-family: 'fixer slim';
   src: url(./fonts/fixer_slim.ttf);
 }
 
+@font-face {
+  font-family: 'Roboto Mono Light';
+  src: url(./fonts/robotomono-light-webfont.woff2),
+  url(./fonts/robotomono-light-webfont.woff);
+}
+
 body {
-  font-family: fixer slim;
-  font-size: 22px; 
-  line-height: 1; 
+  font-family: 'Roboto Mono Light';
+  font-size: 16px; 
+  line-height: 1.2; 
   font-weight: 300;
 }
 
-p, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: fixer;
   margin-top: 0;
 }
