@@ -6,6 +6,10 @@
         padding: 0 var(--global-padding);
     }
 
+    .article__sidebar--toggle {
+        display: none;
+    }
+
     .articles {
         article {
             color: var(--black);
@@ -15,6 +19,7 @@
             .article__body {
                 background: var(--white);
                 padding: var(--global-padding);
+                transition: width 0.3s;
                 width: 80%;
 
                 @media screen and (max-width: $break-medium) {
@@ -26,7 +31,7 @@
                         margin-bottom: 5px;
                     }
 
-                    .profile__Container {
+                    .profile__container {
                         display: flex;
                         justify-content: space-between;
                         align-items: baseline;
@@ -53,9 +58,10 @@
                 }
             }
 
-            aside {
+            .article__sidebar {
                 background: var(--lightBlue);
                 padding: var(--global-padding);
+                transition: width 0.3s;
                 width: 20%;
 
                 @media screen and (max-width: $break-medium) {
@@ -68,4 +74,29 @@
             }
         }
     }
+}
+
+@media screen and (max-width: $break-medium) {
+
+    .content__container {
+
+        .article__sidebar--toggle {
+            display: block;
+        }
+    
+        article.showSidebar-mobile {
+
+            .article__body {
+                width: 70%;
+            }
+
+            .article__sidebar {
+                width: 30%;
+                display: block;
+            }
+        
+        }
+
+    }
+
 }
