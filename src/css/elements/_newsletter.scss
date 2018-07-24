@@ -1,0 +1,22 @@
+.newsletter {
+    padding: var(--global-padding);
+    margin: var(--global-margin) ;
+
+    .newsletter__container {
+        text-align: center;
+        
+        input {
+            padding: 10px 20px;
+        }
+
+        @media screen and (max-width: $break-medium) {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .disclaimer {
+            margin-bottom: 0;
+        }
+    }
+}
