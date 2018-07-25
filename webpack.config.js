@@ -24,6 +24,12 @@ module.exports = (env) => ({
     output: {
         path: path.join(__dirname, outputFolder)
     },
+    mode: process.env.WEBPACK_SERVE ? 'development' : 'production',
+    serve: {
+      compress: true,
+      port: 4200,
+      open: true,
+    },
     module: {
       rules: [
         {
