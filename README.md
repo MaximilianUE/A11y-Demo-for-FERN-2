@@ -18,7 +18,9 @@
 
 ## ℹ️ Was ist das hier?
 
-Dies ist eine kleine Webseite, anhand derer du in der Lage sein sollst, mit Accessibility-Optimierungen herumzuprobieren.
+> a11y = Accessibility
+
+Dies ist ein kleines Webseite-Projekt, anhand dessen du in der Lage sein sollst, mit a11y-Optimierungen herumzuprobieren.
 
 Um zu sehen, was alles möglich ist, kannst du die beiden Branches `master` *(soll-Zustand)* und `desaster` <!-- TODO: tatsächlichen Branch-Namen eintragen --> *(ist-Zustand)* vergleichen.
 
