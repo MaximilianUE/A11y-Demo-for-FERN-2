@@ -14,38 +14,40 @@
         <a href="index.html" aria-label="Startseite" title="Zur Startseite" class="noLinkStyle">
             <img src="./img/logo.png" alt="Logo des Frontend-Meetups, verlinkt zur Startseite" height="100" width="100">
         </a>
-        <nav>
+        <nav aria-label="Hauptnavigation" title="Hauptnavigation">
             <a href="./index.html" aria-label="Startseite" title="Zur Startseite">Welcome.</a>
             <a href="#" aria-label="About - Erfahre mehr über uns" title="About - Erfahre mehr über uns" >About.</a>
             <a href="#" aria-label="Help - Hier bekommst du Hilfe" title="Help - Hier bekommst du Hilfe" >Help.</a>
         </nav>
     </header>
 
-    <main class="body" role="main">
+    <main class="body">
 
-        <h1 class="text-center">Willkommen zum zweiten<br>
-            Frontend Meetup Rhein-Neckar
-        </h1>
+        <section aria-label="Einleitung">
 
-        <section class="slider__container">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./img/impression2.jpg" alt="Frontend-Meetup Banner im Vordergund, Zuhörer im Hintergrund" width="600px">
-                        <p>Frontend-Meetup Banner im Vordergund, Zuhoerer im Hintergrund</p>
+            <h1 class="text-center">Willkommen zum zweiten<br>
+                Frontend Meetup Rhein-Neckar
+            </h1>
+
+            <div class="slider__container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/impression2.jpg" alt="Frontend-Meetup Banner im Vordergund, Zuhörer im Hintergrund" width="600px">
+                            <p>Frontend-Meetup Banner im Vordergund, Zuhoerer im Hintergrund</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/impression5.jpg" alt="Die Teilnehmer tauschen sich über das Event aus." width="600px">
+                            <p>Die Teilnehmer tauschen sich ueber das Event aus.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/impression3.jpg" alt="Das Publikum lauscht dem ersten Talk" width="600px">
+                            <p>Das Publikum lauscht dem ersten Talk</p>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/impression5.jpg" alt="Die Teilnehmer tauschen sich über das Event aus." width="600px">
-                        <p>Die Teilnehmer tauschen sich ueber das Event aus.</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/impression3.jpg" alt="Das Publikum lauscht dem ersten Talk" width="600px">
-                        <p>Das Publikum lauscht dem ersten Talk</p>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
-        </section>
 
             <div class="infoBox__container">
                 <h2>Was euch erwartet</h2>
@@ -59,7 +61,7 @@
             </div>
         </section>
 
-        <section class="content__container">
+        <section class="content__container" aria-label="Hauptartikel der Website">
             <h2>Our blog</h2>
             <div class="articles">
                 <article>
@@ -93,7 +95,8 @@
             </div>
         </section>
 
-        <section class="photoCard__container">
+        <section class="photoCard__container" id="Impressionen">
+            <h2 class="text-center">Impresssionen des letzen Meetups</h2>
             <div class="photoCard photoCard--left">
                 <div class="image__container">
                     <div class="image--frame">
@@ -102,7 +105,7 @@
                     </div>
                 </div>
                 <div class="text">
-                    <h2>Neue Eindruecke erwecken</h2>
+                    <h3>Neue Eindruecke erwecken</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas sapiente 
                         laborum similique accusamus, labore perspiciatis quo. Voluptatem, quas, iste 
                         nesciunt commodi deserunt laborum labore, animi tempore quidem a eos doloribus!
@@ -111,7 +114,7 @@
             </div>
             <div class="photoCard photoCard--right">
                 <div class="text">
-                    <h2>Triff neue Leute!</h2>
+                    <h3>Triff neue Leute!</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
                         aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
                         takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -166,7 +169,7 @@
 
     <footer>
 
-        <section>
+        <section aria-label="Newsletter Anmeldung">
             <div class="newsletter">
                 <form action="#">
                     <fieldset>
@@ -225,11 +228,11 @@
             </div>
         </section>
     
-        <div class="footer--low">
+        <nav class="footer--low" aria-label="Hauptnavigation">
             <a href="./index.html" aria-label="Startseite" title="Zur Startseite">Welcome.</a>
             <a href="#" aria-label="About - Erfahre mehr über uns" title="About - Erfahre mehr über uns" >About.</a>
             <a href="#" aria-label="Help - Hier bekommst du Hilfe" title="Help - Hier bekommst du Hilfe" >Help.</a>
-        </div>
+        </nav>
     </footer>
 
     <!-- imports from output folder -->
