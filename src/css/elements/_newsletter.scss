@@ -17,6 +17,10 @@
 
         .disclaimer {
             margin-bottom: 0;
+
+            a {
+               color: var(--purple);
+            }
         }
     }
 }
