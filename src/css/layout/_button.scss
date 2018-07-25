@@ -18,3 +18,12 @@ button {
         text-align: center;
     }
 }
+
+a.button.button--green {
+    color: var(--black);
+    background: var(--lightGreen);
+
+    &:hover {
+        background: var(--green);
+    }
+}
