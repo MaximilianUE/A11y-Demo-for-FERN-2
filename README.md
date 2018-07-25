@@ -1,18 +1,48 @@
 
-# Demo Page for Frontend Meetup Rhein-Neckar
+# Demo-Seite zum Thema a11y
 
-### Setup:
+ <!-- TODO: Screenshot hier einbetten -->
 
-get yarn: https://yarnpkg.com/en/docs/install
+**vom [Frontend Rhein-Neckar #2](https://www.meetup.com/de-DE/Frontend-Rhein-Neckar/events/252148498/)**
 
-node version: v8.9.0
+[➡️ zu den zugehörigen Präsentationen]() <!-- TODO: Link zu dem Präsentationen -->
 
-`yarn`
+## 🚀 Setup
 
-### Ret-2-go development with Webpack Dev-Server
+*node-Version 8.9.0*
 
-`yarn start`
+* [yarn](https://yarnpkg.com/en/docs/install) installieren
+* Dependencies installieren: `yarn`
+* Dev-Server starten: `yarn start`
 
-### Production
+
+## ℹ️ Was ist das hier?
+
+Dies ist eine kleine Webseite, anhand derer du in der Lage sein sollst, mit Accessibility-Optimierungen herumzuprobieren.
+
+Um zu sehen, was alles möglich ist, kannst du die beiden Branches `master` *(soll-Zustand)* und `desaster` <!-- TODO: tatsächlichen Branch-Namen eintragen --> *(ist-Zustand)* vergleichen.
+
+Auf folgendes solltest Du hier dein Augenmerk richten:
+
+* aria-Labels
+*  <!-- TODO: weitere eintragen --> 
+
+
+## ♿️ a11y-Testing
+
+Diese Tools kannst Du zum Testen deiner Seite verwenden:
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) in Chrome
+* <!-- TODO: weitere Tools zum Testen eintragen eintragen --> 
+
+
+## 🚚 Production build
 
 `yarn run build`
+
+## 🌐 Weiterführende Links
+
+* [Infos zum FERN #2 auf dem Bitspeicher Blog](https://bitspeicher.blog/frontend-rhein-neckar-2-a11y/)
+* Frontend Rhein-Neckar auf...
+	* [Meetup.com](https://www.meetup.com/de-DE/Frontend-Rhein-Neckar/)
+	* [Twitter](https://twitter.com/FrontendRN)
