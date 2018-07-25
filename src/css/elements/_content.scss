@@ -64,16 +64,12 @@
                 transition: width 0.3s;
                 width: 20%;
 
-                a:after {
-                    border-color: var(--black);
-                }
-
                 @media screen and (max-width: $break-medium) {
                     display: none;
                 }
 
                 h4 {
-                    text-align: center
+                    text-align: center;
                 }
             }
         }
