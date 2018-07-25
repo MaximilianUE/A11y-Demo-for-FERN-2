@@ -1,0 +1,12 @@
+.container {
+  padding: var(--global-padding);
+}
+
+.container--purple {
+  background: var(--purple);
+  color: var(--white);
+
+  h2 {
+    margin-bottom: 16px;
+  }
+}
