@@ -1,10 +1,8 @@
 
-let buttonToggle = document.querySelectorAll('.article__sidebar--toggle');
+let buttonToggle = document.querySelector('.article__sidebar--toggle');
 
-buttonToggle.forEach(btn => {
-  btn.addEventListener ('click', (e) => toggleArticleSidebar(e.target) );
-});
+buttonToggle.addEventListener ('click', (e) => toggleArticleSidebar(e.target) );
 
-function toggleArticleSidebar(btn) {
+function toggleArticleSidebar() {
   document.querySelector('article').classList.toggle('showSidebar-mobile');
 }
