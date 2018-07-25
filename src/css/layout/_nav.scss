@@ -1,6 +1,8 @@
-
-nav.vertical {
+.nav {
     display: flex;
+}
+
+.nav--vertical {
     flex-direction: column;
     align-items: flex-end;
 
@@ -8,5 +10,16 @@ nav.vertical {
         display: inline-block;
         margin-bottom: 10px;
         width: max-content;
+    }
+}
+
+.nav--main {
+
+    a {
+        font-family: 'fixer';
+        text-transform: uppercase;
+        font-size: 26px;
+        display: inline-block;
+        margin-right: 5px;
     }
 }
