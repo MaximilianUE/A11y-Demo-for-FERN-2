@@ -1,9 +1,9 @@
 
 # Demo-Seite zum Thema a11y
 
- <!-- TODO: Screenshot hier einbetten -->
-
 **vom [Frontend Rhein-Neckar #2](https://www.meetup.com/de-DE/Frontend-Rhein-Neckar/events/252148498/)**
+
+![Screenshot der Demo-Seite](resources/screencapture_01.gif)
 
 [➡️ zu den zugehörigen Präsentationen]() <!-- TODO: Link zu dem Präsentationen -->
 
