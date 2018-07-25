@@ -3,7 +3,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background: var(--purple);
-
+    color: var(--white);
+    
     .teaser {
         @extend .noLinkStyle;
         min-width: 200px;
@@ -15,7 +16,6 @@
         padding: var(--global-padding);
         background: var(--blue);
         transition: transform 0.3s, background-color 0.3s;
-        cursor: pointer;
 
         p {
             padding: var(--global-padding);
