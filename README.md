@@ -48,3 +48,5 @@ Diese Tools kannst du zum Testen deiner Seite verwenden:
 * Frontend Rhein-Neckar auf...
 	* [Meetup.com](https://www.meetup.com/de-DE/Frontend-Rhein-Neckar/)
 	* [Twitter](https://twitter.com/FrontendRN)
+
+##### made with ❤️ by [Maximilian Becher](https://twitter.com/diverent2)
