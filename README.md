@@ -22,21 +22,22 @@
 
 Dies ist ein kleines Webseite-Projekt, anhand dessen du in der Lage sein sollst, mit a11y-Optimierungen herumzuprobieren.
 
-Um zu sehen, was alles möglich ist, kannst du die beiden Branches `master` *(soll-Zustand)* und `desaster` <!-- TODO: tatsächlichen Branch-Namen eintragen --> *(ist-Zustand)* vergleichen.
+Um zu sehen, was alles möglich ist, kannst du die beiden Branches `master` *(soll-Zustand)* und `desaster` *(ist-Zustand)* vergleichen.
 
 Auf folgendes solltest Du hier dein Augenmerk richten:
 
 * aria-Labels
-*  <!-- TODO: weitere eintragen --> 
-
+* alt-Tags
+* Lesbarkeit
+* ...
 
 ## ♿️ a11y-Testing
 
 Diese Tools kannst du zum Testen deiner Seite verwenden:
 
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) in Chrome
-* <!-- TODO: weitere Tools zum Testen eintragen eintragen --> 
-
+* [Sim Daltonism](https://itunes.apple.com/de/app/sim-daltonism/id693112260?mt=12) Farbenblindheit simulieren [Mac only]
+* [Cromevox](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?utm_source=chrome-ntp-icon) Sprachassistent
 
 ## 🚚 Production build
 
