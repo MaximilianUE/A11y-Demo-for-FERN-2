@@ -6,6 +6,13 @@ body {
   max-width: 1080px;
 }
 
+*:focus {
+  outline: 2px var(--black) solid;
+  .infoBox__container & {
+    outline: 2px var(--blush) solid;
+  }
+}
+
 a {
   display: inline-block;
   text-decoration: none;
