@@ -32,7 +32,7 @@ Auf folgendes solltest Du hier dein Augenmerk richten:
 
 ## ♿️ a11y-Testing
 
-Diese Tools kannst Du zum Testen deiner Seite verwenden:
+Diese Tools kannst du zum Testen deiner Seite verwenden:
 
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) in Chrome
 * <!-- TODO: weitere Tools zum Testen eintragen eintragen --> 
