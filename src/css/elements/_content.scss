@@ -64,6 +64,10 @@
                 transition: width 0.3s;
                 width: 20%;
 
+                a:after {
+                    border-color: var(--black);
+                }
+
                 @media screen and (max-width: $break-medium) {
                     display: none;
                 }
