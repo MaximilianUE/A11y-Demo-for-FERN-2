@@ -5,7 +5,7 @@
 
 ![Screenshot der Demo-Seite](resources/screencapture_01.gif)
 
-[➡️ zu den zugehörigen Präsentationen]() <!-- TODO: Link zu dem Präsentationen -->
+[➡️ zu den zugehörigen Präsentationen]() bald verfügbar! <!-- TODO: Link zu dem Präsentationen -->
 
 ## 🚀 Setup
 
